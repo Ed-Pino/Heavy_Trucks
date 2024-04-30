@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="estilos.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oriental Trucks</title>
+    </head>
+    
+    <body>
+        <header>
+            <div>
+                <img src="imagenes/img1.jpg" alt="img">
+            </div>
+            <h1><u>Oriental Trucks</u></h1>
+            <nav>
+                <ul>
+                <li><a href="about.html">Sobre nosotros</a></li>
+                <li><a href="product.html">Productos</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <div class="text">
+            <h3>Calidad Respaldo</h3>
+            <br>
+            <img src="imagenes/camiones.jpg" alt="camiones" width="800px" height="200px">
+        
+        
+            <h3>Repuestos 100% origuinales</h3>
+            <p>En Repuestos Automotrices, somos su destino de confianza para mantener su vehículo en óptimas condiciones. Nuestro amplio inventario de repuestos de alta calidad, respaldado por un equipo de expertos, le garantiza encontrar la pieza que necesita en el momento oportuno. Conozca nuestra atención personalizada y servicio excepcional que lo harán volver una y otra vez. Confíe en Repuestos Automotrices para mantener su vehículo en marcha sin contratiempos.
+            </p>
+        
+            <h3>Reponde este formulario y para alistar el repuesto que buscas!</h3>
+        </div>
+        <br>
+        <div class="formulario">
+            <form action="oriental_trucks.html">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre"><br>
+                        <br>
+                        <label for="apellidos">Apellido:</label>
+                        <input type="text" id="apellido" name="apellidos"><br>
+                        <br>
+                        <h3>Cual es la marca de tu camion?</h3>
+                        <br>
+                        <br>
+                        <input type="radio" id="jac" name="marca" value="jac">
+                        <label for="jac"> JAC</label><br>
+                        <input type="radio" id="foton" name="marca" value="foton">
+                        <label for="foton">FOTON</label><br>
+                        <input type="radio" id="chevy" name="marca" value="chevy">
+                        <label for="chevy">CHEBROLET</label><br>
+                        <br>
+                        <h3>Que tipo de veiculo es?</h3>
+                        <br>
+                        <br>
+                        <input type="radio" id="auto" name="clase" value="auto">
+                        <label for="auto">Automovil</label><br>
+                        <input type="radio" id="camioneta" name="clase" value="camioneta">
+                        <label for="camioneta">Camioneta</label><br>
+                        <input type="radio" id="camion" name="clase" value="camion">
+                        <label for="camion">Camion</label><br>
+                        <br>
+                        <img src="imagenes/camioneta.jpg" alt="camioneta img" width="700px" height="200px"><br>
+                        <h3>Cual es el repuesto que buscas?</h3>
+                        <br>
+                        <select name="marcaAuto" id="marcaAuto" size="3" multiple>
+                            <option value="bomba de agua">Bomba de agua</option>
+                            <option value="alternador">Alternador</option>
+                            <option value="instalacion de alta">Instalacion de alta</option>
+                            <option value="distribuidor">Distribuidor</option>
+                            <option value="computador">Computador</option>
+                        </select><br>
+                        <br>
+
+                        <h3>Informacion Adicional</h3>
+                        <br>
+                        <textarea name="mensaje" id="mensaje" cols="5" rows="10" placeholder="Dinos el modelo y año de fabricacion" style="resize:none; width: 200px; height: 300px;"></textarea><br><br>
+                        <br>
+                        <img src="imagenes/repuestos.jpg" alt="repuestos" width="700px" height="200px">
+                        <br>
+                        <label for="fecha"><h3>Programa la fecha en que recojes los repuestos</h3> </label>  
+                        <br> 
+                        <input type="date" id="fecha" name="fecha"><br>
+                        <br>
+                        <h3>Ingresa un correo para enviarte la factura</h3>
+                        <br>
+                        <input type="email" id="correo" name="correo" placeholder="Ingresa correo">
+                    <span pattern=>correo@algo.com</span><br>
+            </form><br>
+        </div>
+        <br>
+        
+        <footer>Enlaces relacionados</footer>
+    </body>
+</html>
