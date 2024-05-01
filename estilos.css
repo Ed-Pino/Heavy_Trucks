@@ -100,6 +100,8 @@ li{
 }
 
 footer {
+    text-align: center;
+    height: 70px;
     background-color:#060606;
     display:flex;
     justify-content:center;
