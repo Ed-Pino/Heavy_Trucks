@@ -18,61 +18,57 @@ body{
 }
 
 header {
-        height: 30%;
-        background-color: #f0000f;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        padding: 15px;
-        }
+    display: flexbox;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    text-shadow: -2px 3px 2px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
         
-header div.logo {
-        display: flex;
-        align-items: center;
-        }
         
 header img {
-        height: 80px;
-        width: 80px;
-        margin: 10px;
+        padding: auto;
+        height: 120px;
+        width: 120px;
+        margin: 5px;
         }
         
 header h1 {
         font-family:Georgia, 'Times New Roman', Times, serif;
-        font-size: cover;
-        margin: 0;
+        margin: 35px 20px 20px 20px;
         text-align: center;
-        flex-grow: 10px;
+        padding: 20px;
         }
-#titulo{
-    width: 280px;
-    height: 50px;
-    text-align: center;
-}
 
 
-header nav ul {
-        display: flex;
+header nav {
+        display:grid;
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin: 5px;
+        padding: 10px;
         }
         
 header nav a {
-         
-        padding: 9px;
-        color: #fcb045;
+        margin: 5px;
+        padding: 3px;
+        color: #f0000f;
         text-decoration: none;
-        text-size-adjust: 20px;
+        text-size-adjust: 10px;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 20px;
         width: 10px;
-        height: 20px;
+        height: 15px;
+        border: 1px  solid black;
         border-radius: 6px;
+        background-color: white;
         }
+
+.text{
+    display:flexbox;
+}
         
 .text h1 {
         color: #ffffff;
